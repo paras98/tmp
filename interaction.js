@@ -1,4 +1,4 @@
-	alert("hello");
+
 	cookieValue = document.cookie;
 
             const headers = new Headers();
